@@ -16,7 +16,8 @@ authors:
     given-names: Quang-Vinh
     affiliation: British University Vietnam (BUV)
 license: MIT
-repository-code: "https://github.com/phucson/certified-projection"
-url: "https://github.com/phucson/certified-projection"
+repository-code: "https://github.com/phucson/certified_low_rank_screening"
+url: "https://github.com/phucson/certified_low_rank_screening"
+doi: "10.5281/zenodo.21927674"
 version: 1.2.0
 date-released: "2026-08-14"

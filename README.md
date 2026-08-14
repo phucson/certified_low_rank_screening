@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Reproducible](https://img.shields.io/badge/results-15%2F15%20reproducible-brightgreen.svg)](#reproducing-the-paper)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21927674.svg)](https://doi.org/10.5281/zenodo.21927674)
 
 Reference implementation for *Certified Low-Rank Screening of Spectral Risk Measures for Max-Affine Exposures* (Nguyen, Vu & Dang).
 
@@ -46,8 +47,8 @@ rather than the whole catalogue.
 ## Install
 
 ```bash
-git clone https://github.com/phucson/certified-projection.git
-cd certified-projection/code
+git clone https://github.com/phucson/certified_low_rank_screening.git
+cd certified_low_rank_screening/code
 pip install -r requirements.txt
 ```
 
@@ -174,5 +175,6 @@ resampled or importance-weighted catalogue still yields a valid certificate:
 
 ## Licence and citation
 
-MIT (see [`LICENSE`](LICENSE)). Citation metadata in
-[`CITATION.cff`](CITATION.cff); please cite the paper rather than the code alone.
+MIT (see [`LICENSE`](LICENSE)). Archived at [10.5281/zenodo.21927674](https://doi.org/10.5281/zenodo.21927674);
+citation metadata in [`CITATION.cff`](CITATION.cff). Please cite the paper rather
+than the code alone.
