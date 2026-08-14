@@ -11,7 +11,7 @@ import os
 import subprocess
 import sys
 
-REQUIRED_VERSION = "1.2.0"
+REQUIRED_VERSION = "1.2.1"
 
 __all__ = ["assert_version", "git_commit", "dump"]
 

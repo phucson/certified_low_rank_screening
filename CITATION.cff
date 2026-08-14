@@ -19,5 +19,5 @@ license: MIT
 repository-code: "https://github.com/phucson/certified_low_rank_screening"
 url: "https://github.com/phucson/certified_low_rank_screening"
 doi: "10.5281/zenodo.21927674"
-version: 1.2.0
+version: 1.2.1
 date-released: "2026-08-14"

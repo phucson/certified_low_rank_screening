@@ -10,4 +10,4 @@ from .certificate import (Candidate, Projection, bracket, robust_bracket,
 from .cost import surrogate_cost, saving_factor, speedup, speedups
 from .provenance import assert_version, git_commit, dump
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
