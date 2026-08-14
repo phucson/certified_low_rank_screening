@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+CASdatasets/
+results/*.json
+.ipynb_checkpoints/

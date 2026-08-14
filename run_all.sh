@@ -12,7 +12,7 @@
 #
 # Every run is logged to results/ and stamped with the library version and
 # commit. NOT every number in the paper is reproduced here: see
-# MISSING_SCRIPTS.md for the reported results that still have no script.
+# REPRODUCIBILITY.md for the reported results that still have no script.
 
 set -euo pipefail
 
@@ -146,7 +146,7 @@ run wk_attainment "supplement S.5, attainment of the W_k constant" \
 # ------------------------------------------------------------- unit checks
 # These verify closed forms and extremiser families. check_sharpness_extremisers
 # regenerates the supplementary sharpness table; see the provenance note in
-# MISSING_SCRIPTS.md before citing it as the source of those values.
+# REPRODUCIBILITY.md before citing it as the source of those values.
 
 run check_sharpness "supplement, sharpness constants (see provenance note)" \
     check_sharpness_extremisers.py
@@ -159,7 +159,9 @@ run check_wk_closed_forms "supplement S.2.15, W_k closed forms" \
   echo "certproj_version: $VERSION"
   echo "git_commit: $COMMIT"
   echo "python: $("$PY" -c 'import sys; print(sys.version.split()[0])')"
-  echo "casdatasets: ${CAS:-<not supplied>}"
+  # Record only whether the datasets were present, never the local path: an
+  # absolute path leaks the machine layout and any directory names in it.
+  echo "casdatasets: $([[ -n "$CAS" ]] && echo supplied || echo '<not supplied>')"
   echo "started: $STARTED"
   echo "finished: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
   echo "ran: ${ran[*]}"
@@ -170,4 +172,4 @@ echo "output in results/ (manifest: results/RUN_MANIFEST.txt)"
 if (( ${#skipped[@]} )); then
   echo "SKIPPED without CASdatasets: ${skipped[*]}"
 fi
-echo "reported results with no script yet: see MISSING_SCRIPTS.md"
+echo "reported results with no script yet: see REPRODUCIBILITY.md"

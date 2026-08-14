@@ -162,7 +162,7 @@ every property the paper states — `d = 8`, PC variance shares
 Cholesky factor — and additionally fixes the eigenvectors, which the paper's
 description left open but which materially affect `γ_j(U)`. Results derived from
 it (Table S.3, Remarks 6.1/6.4/6.5, §8) reproduce the paper's *qualitative*
-conclusions but not all of its exact figures. See `MISSING_SCRIPTS.md`.
+conclusions but not all of its exact figures. See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
 ## Validity under misspecification
 
