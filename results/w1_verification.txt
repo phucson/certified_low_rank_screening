@@ -1,0 +1,19 @@
+(a) W_1 increment, LP in quantile space, M=2000, radius=0.1
+    TVaR(0.99)     LP    10.000000   rho*iota    10.000000   rel.err 3.35e-13
+    dual-power 6   LP     0.599250   rho*iota     0.599993   rel.err 1.24e-03
+
+    dual-power residual against grid size
+      M=500    rel.err 4.974e-03
+      M=1000   rel.err 2.484e-03   halving ratio 2.00
+      M=2000   rel.err 1.237e-03   halving ratio 2.01
+      M=4000   rel.err 6.123e-04   halving ratio 2.02
+
+(b) invariance of the increment across reference laws
+    Gaussian       increment 10.0000000000   deviation 0.00e+00
+    Student-t3     increment 10.0000000000   deviation 1.78e-15
+    Pareto(2.5)    increment 10.0000000000   deviation 0.00e+00
+    V-shaped       increment 10.0000000000   deviation 1.78e-15
+
+(c) pushforward lemma: cost in R^d vs cost along the retained axis
+    R^d cost 1.239424448870   retained cost 1.239424448870
+    agree to 16 significant figures

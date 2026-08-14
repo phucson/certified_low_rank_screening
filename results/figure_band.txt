@@ -1,0 +1,7 @@
+N=260, alpha=0.9, K=4, m=26
+tau_j = 60.0261
+band  = 149 of 260 scenarios (57.3%)
+provably excluded = 111 (42.7%)
+band contains the true tail set: True
+
+wrote ../results/figure_band.tex

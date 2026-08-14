@@ -1,0 +1,9 @@
+  books  r      var       f     beta   tight      dir      env  band ok  rob ok
+    m=4  1   0.8601   0.228   0.0921   0.080     6.0x     8.6x     True    True
+    m=4  2   0.9750   0.497   0.0316   0.113     7.1x    22.2x     True    True
+    m=4  3   0.9904   0.740   0.0157   0.112     9.8x    52.2x     True    True
+    m=4  4   0.9963   0.890   0.0105   0.079    17.8x   132.6x     True    True
+    m=8  1   0.8601   0.110   0.0711   0.130     5.7x     8.7x     True    True
+    m=8  2   0.9750   0.450   0.0212   0.139     6.7x    22.9x     True    True
+    m=8  3   0.9904   0.698   0.0132   0.120     8.5x    46.4x     True    True
+    m=8  4   0.9963   0.863   0.0103   0.066    14.3x   106.4x     True    True

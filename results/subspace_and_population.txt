@@ -1,0 +1,14 @@
+subspace choice at fixed rank (synthetic population)
+  r       U_M       U_F       U_G   best
+  1     0.205     0.225     0.133   U_F
+  2     0.305     0.705     0.170   U_F
+  3     0.445     0.810     0.203   U_F
+  4     0.632     0.902     0.260   U_F
+
+gamma_j(U) over the median orthogonal slope norm: [1.09, 1.24]
+
+population features at r=2, d=10
+  dense (8 of 10 loaded)       f = 0.630
+  sparse (2 of 10 loaded)      f = 0.728
+  homogeneous alignment        f = 0.698
+  heterogeneous alignment      f = 0.723

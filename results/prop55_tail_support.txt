@@ -1,0 +1,8 @@
+sigma               s_0.99
+TVaR(0.95)           0.050
+TVaR(0.99)           0.010
+dual-power 2         0.900
+dual-power 6         0.536
+PH 1.5               0.985
+PH 3                 0.970
+Wang 0.5             0.966

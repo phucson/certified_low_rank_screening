@@ -1,0 +1,8 @@
+synthetic population, B=1000, N=40000, pilot=30, TVaR(0.99)
+  r   realised f   predicted f    error
+  1        0.229         0.267   +0.038
+  2        0.697         0.696   -0.001
+  3        0.813         0.810   -0.003
+  4        0.894         0.906   +0.012
+
+max error 0.038

@@ -1,0 +1,8 @@
+certproj_version: 1.2.0
+git_commit: unknown
+python: 3.13.13
+casdatasets: /home/ad/Documents/Research/Vinh_Q_Dang/Futher_fast/code/CASdatasets
+started: 2026-08-13T01:45:21Z
+finished: 2026-08-13T01:48:24Z
+ran: table2_treasury table2_catastrophe table3_selection_loop tableS6_sensitivity prop55_tail_support tableS3_threshold_sweep tableS5_gamma_diagnostic tableS4_wallclock rejected_refinements subspace_and_population w1_verification figure_band wk_attainment check_sharpness check_wk_closed_forms
+skipped: <none>

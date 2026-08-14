@@ -1,0 +1,6 @@
+synthetic population, r=2, B=1000, N=40000
+nominal certified fraction f = 0.697, 303 unresolved
+
+(1) coherence-free: recovers a factor 2.25-2.48 (median 2.36)
+(3) tight envelope: re-certifies 161 of 303 (53.1%), lifting f from 0.697 to 0.858; mean tightening 2.43x
+    pilot certificate: valid on 303/303 at 99% simultaneous confidence; median ratio to the deterministic tight envelope 1.14

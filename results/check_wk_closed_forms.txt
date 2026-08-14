@@ -1,0 +1,20 @@
+family               k   numerical   closed form
+TVaR(0.99)           2     10.0000       10.0000
+dual-power 6         2      1.8091        1.8091
+PH 3                 2         inf           inf
+Wang 0.5             2      1.1331        1.1331
+
+TVaR(0.99)           3      4.6416        4.6416
+dual-power 6         3      1.4406        1.4406
+PH 3                 3         inf           inf
+Wang 0.5             3      1.0645        1.0645
+
+TVaR(0.99)           4      3.1623        3.1623
+dual-power 6         4      1.3023        1.3023
+PH 3                 4      1.7321        1.7321
+Wang 0.5             4      1.0425        1.0425
+
+The numerical column uses adaptive quadrature with an explicit
+divergence test, so PH(gamma) is reported as infinite for every
+k <= gamma, including the logarithmically divergent boundary k = gamma,
+and matches the closed form to four decimals for k > gamma.

@@ -1,0 +1,8 @@
+catastrophe catalogue: N=40000, d=5 perils, B=300
+log-correlation range: [-0.263, +0.182]
+
+  r      var       f     beta   tight      dir      env  band ok  rob ok
+  1   0.6597   0.250   0.1022   0.246     4.4x     6.6x     True    True
+  2   0.8178   0.367   0.0319   0.112     3.7x    12.0x     True    True
+  3   0.9395   0.663   0.0132   0.058     4.8x    26.2x     True    True
+  4   0.9743   0.820   0.0107   0.017     6.9x    50.2x     True    True

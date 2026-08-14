@@ -1,0 +1,6 @@
+B=300 Treasury books, N=20000, TVaR(0.99), 20 permutations
+  r    random  best-first   reverse  fixed thr.  min exact
+  1     0.665       0.727     0.000       0.247       True
+  2     0.955       0.993     0.000       0.510       True
+  3     0.973       0.993     0.000       0.767       True
+  4     0.976       0.997     0.000       0.913       True
